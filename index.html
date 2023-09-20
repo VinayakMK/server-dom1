@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-form">
+        <form id="signup" action="api/register" method="post" method="post" onsubmit="return registerValidation()">
+          <h1>Login</h1>
+          <div class="content">
+            <div class="input-field">
+              <input type="email" name="email">
+            </div>
+            <div class="input-field">
+              <input type="password" name="password">
+            </div>
+           
+          </div>
+          <div class="action">
+            <button>Register</button>
+            <button>Sign in</button>
+          </div>
+        </form>
+      </div>
+    
+    <script src="./server.js"></script>
+</body>
+</html>
